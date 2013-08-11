@@ -2,15 +2,15 @@ The http://grails.org/plugin/spring-security-ldap has great documentation. I put
 
 Important files 
 
-grails-app/conf/Config.groovy
-src/groovy/com/javazquez/ldapexample/MyUserDetailsContextMapper.groovy
-src/groovy/com/javazquez/ldapexample/MyUserDetails.groovy
-grails-app/conf/spring/resources.groovy
+<a href='https://github.com/javazquez/Grails-Active-Directory-LDAP-example/blob/master/grails-app/conf/Config.groovy' target='_blank' >grails-app/conf/Config.groovy</a> <br/>
+<a href='https://github.com/javazquez/Grails-Active-Directory-LDAP-example/blob/master/src/groovy/com/javazquez/ldapexample/MyUserDetailsContextMapper.groovy' target='_blank'>src/groovy/com/javazquez/ldapexample/MyUserDetailsContextMapper.groovy</a><br/>
+<a href='https://github.com/javazquez/Grails-Active-Directory-LDAP-example/blob/master/src/groovy/com/javazquez/ldapexample/MyUserDetails.groovy' target='_blank'>src/groovy/com/javazquez/ldapexample/MyUserDetails.groovy</a><br/>
+<a href='https://github.com/javazquez/Grails-Active-Directory-LDAP-example/blob/master/grails-app/conf/spring/resources.groovy' target='_blank'>grails-app/conf/spring/resources.groovy</a><br/>
 
 once you have your Active Directory configurations entered (grails-app/conf/Config.groovy), fire up your app and 
 test it out by logging in via the login controller.
 
-Notes
+Notes<br/>
 1) You may have to update src/groovy/com/javazquez/ldapexample/MyUserDetailsContextMapper.groovy as my Active Directory environment may differ from yours. 
 2) You may also want to update src/groovy/com/javazquez/ldapexample/MyUserDetails.groovy to hold more or less info than my config.
 
