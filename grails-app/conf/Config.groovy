@@ -96,3 +96,5 @@ grails.plugins.springsecurity.ldap.authorities.retrieveDatabaseRoles = false
 grails.plugins.springsecurity.ldap.mapper.userDetailsClass = 'person'
 grails.plugins.springsecurity.ldap.search.filter = '(sAMAccountName={0})'
 grails.plugins.springsecurity.ldap.search.base = 'DC=JAVAZQUEZ,DC=JUAN,DC=com'
+// If you wish to support groups with group as members (recursive groups), use the following
+//grails.plugins.springsecurity.ldap.authorities.groupSearchFilter = '(member:1.2.840.113556.1.4.1941:={0})' // Active Directory specific
