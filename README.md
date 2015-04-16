@@ -12,6 +12,7 @@ test it out by logging in via the login controller.
 
 Notes<br/>
 <ul>
+<li> This uses Grails 2.X and likely won't work with 3.X
 <li> You may have to update MyUserDetailsContextMapper.groovy as my Active Directory environment may differ from yours. </li>
 <li> You may also want to update MyUserDetails.groovy to hold more or less info than my config. </li>
 </ul>
